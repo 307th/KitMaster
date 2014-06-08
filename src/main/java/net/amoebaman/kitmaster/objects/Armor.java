@@ -104,7 +104,7 @@ public class Armor {
 	 */
 	public boolean isBetterThan(Armor other){
 		if(!isValid())
-			return false;
+			return true;
 		if(!other.isValid())
 			return true;
 		return lvl.ordinal() >= other.lvl.ordinal();

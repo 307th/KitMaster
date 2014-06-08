@@ -262,7 +262,7 @@ public class Actions {
 		if(callEvent)
 			event.callEvent();
 		if(!event.isCancelled() && event.clearsInventory()){
-			player.getInventory().clear();
+			//player.getInventory().clear();
 			player.getInventory().setArmorContents(null);
 		}
 	}
