@@ -6,6 +6,7 @@ author: AmoebaMan
 website: www.amoebaman.net
 description: The complete short-term kit plugin
 softdepend: [Vault]
+dependency: [EnchantmentAPI]
 
 commands:
 

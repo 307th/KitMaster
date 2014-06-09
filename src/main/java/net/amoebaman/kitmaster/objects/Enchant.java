@@ -1,6 +1,7 @@
 package net.amoebaman.kitmaster.objects;
 
 import org.bukkit.enchantments.Enchantment;
+import com.rit.sucy.CustomEnchantment;
 
 /**
  * Stores and Enchantment and its level

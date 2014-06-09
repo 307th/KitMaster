@@ -20,6 +20,10 @@
 						<id>amoeba-repo</id>
 						<url>http://local.amoebaman.net:8081/nexus/content/repositories/amoeba-repo/</url>
 				</repository>
+				<repository>
+						<id>enchantmentapi-repo</id>
+						<url>https://github.com/307th/EnchantmentAPI/tree/mvn-repo/target/mvn-repo</url>
+				</repository>
 		</repositories>
 
 		<dependencies>
@@ -38,6 +42,11 @@
                         <groupId>net.amoebaman</groupId>
                         <artifactId>amoebautils</artifactId>
                         <version>1.1</version>
+                </dependency>
+                <dependency>
+                        <groupId>com.rit.sucy</groupId>
+                        <artifactId>EnchantmentAPI</artifactId>
+                        <version>4.20</version>
                 </dependency>
 		</dependencies>
 
